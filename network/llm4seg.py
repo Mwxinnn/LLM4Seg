@@ -48,9 +48,9 @@ class LLM4Seg(nn.Module):
         
         if unfreeze:
             print(f"unFreeze {mode}")
+        else:
             for param in self.llm.parameters():
                 param.requires_grad = False
-        else:
             print(f"Freeze {mode}")
             
         if need_init:
