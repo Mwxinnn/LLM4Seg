@@ -2,7 +2,8 @@
 
 Official pytorch code base for "Pre-Trained LLM is a Semantic-Aware and Generalizable Segmentation Booster"
 
-
+**News** 🥰:
+- <font color="#dd0000" size="4">**LLM4Seg is accepted by MICCAI 2025 !**</font> 🎉
 
 ## Introduction
 With the advancement of Large Language Model (LLM) for natural language processing, this paper presents an intriguing finding: a frozen pre-trained LLM layer can process visual tokens for medical image segmentation tasks. Specifically, we propose a simple hybrid  structure (LLM4Seg) that integrates a pre-trained, frozen LLM layer within the CNN encoder-decoder framework. Surprisingly, this design improves segmentation performance with a minimal increase in trainable parameters across various modalities, including ultrasound, dermoscopy, polypscopy, and CT scans. Our in-depth analysis reveals the potential of transferring LLM's semantic awareness to enhance segmentation tasks, offering both improved global understanding and better local modeling capabilities. The improvement proves robust across different LLMs, validated using LLaMA and DeepSeek.
