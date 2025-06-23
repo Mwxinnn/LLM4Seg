@@ -3,7 +3,6 @@
 ![teaser](./img/teaser.jpg)
 
 
-
 <div align="center">
     <span class="author-block">
     <a href="https://scholar.google.com/citations?user=x1pODsMAAAAJ&hl=en" target="_blank">Fenghe Tang*</a><sup>1,2</sup>,</span>
@@ -24,9 +23,9 @@
 
 <div align="center">
     <sup>1</sup>
-    <a href='https://en.ustc.edu.cn/' target='_blank'>School of Biomedical Engineering, University of Science and Technology of China</a>&emsp;
+    <a target='_blank'>School of Biomedical Engineering, University of Science and Technology of China</a>&emsp;
     <br>
-    <sup>2</sup> <a href='http://english.ict.cas.cn/' target='_blank'>Suzhou Institute for Advanced Research, University of Science and Technology of China</a>&emsp;
+    <sup>2</sup> <a target='_blank'>Suzhou Institute for Advanced Research, University of Science and Technology of China</a>&emsp;
     <br>
     <sup>3</sup> <a target='_blank'>Anhui IFLYTEK CO., Ltd.</a>
     <br>
@@ -42,7 +41,7 @@
 
 **News** 🥰:
 
-- LLM4Seg is accepted by MICCAI 2025 ! 🎉
+- LLM4Seg is accepted by MICCAI 2025! 🎉
 
 
 
@@ -121,7 +120,7 @@ from network.llm4seg import LLM4Seg
 llm4seg = LLM4Seg(unfreeze=False, need_init=False, mode="llama", channel=dims[4], layer=14, h=16, w=16)
 
 # forward
-fs_booster = llm4seg(fs)
+fs_boosted = llm4seg(fs)
 ```
 
 
