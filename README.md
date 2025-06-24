@@ -35,7 +35,7 @@
 <br>
 <br>
 
-​                                                                              [![arXiv](https://img.shields.io/badge/arxiv-2408.08070-b31b1b)](https://arxiv.org/pdf/2408.08070.pdf)   [![github](https://img.shields.io/badge/github-LLM4Seg-orange)](https://github.com/FengheTan9/LLM4Seg)    <a href="#LICENSE--citation"><img alt="License: Apache2.0" src="https://img.shields.io/badge/LICENSE-Apache%202.0-blue.svg"/></a>
+​                                                                              [![arXiv](https://img.shields.io/badge/arxiv-2506.18034-b31b1b)](https://arxiv.org/pdf/2506.18034.pdf)   [![github](https://img.shields.io/badge/github-LLM4Seg-orange)](https://github.com/FengheTan9/LLM4Seg)    <a href="#LICENSE--citation"><img alt="License: Apache2.0" src="https://img.shields.io/badge/LICENSE-Apache%202.0-blue.svg"/></a>
 
 
 
@@ -163,7 +163,15 @@ This code uses helper functions from [CMUNeXt](https://github.com/FengheTan9/CMU
 If the code, paper and weights help your research, please cite:
 
 ```
-TODO
+@misc{llm4seg,
+      title={Pre-Trained LLM is a Semantic-Aware and Generalizable Segmentation Booster}, 
+      author={Fenghe Tang and Wenxin Ma and Zhiyang He and Xiaodong Tao and Zihang Jiang and S. Kevin Zhou},
+      year={2025},
+      eprint={2506.18034},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.18034}, 
+}
 ```
 
 
