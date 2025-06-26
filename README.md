@@ -163,14 +163,11 @@ This code uses helper functions from [CMUNeXt](https://github.com/FengheTan9/CMU
 If the code, paper and weights help your research, please cite:
 
 ```
-@misc{llm4seg,
-      title={Pre-Trained LLM is a Semantic-Aware and Generalizable Segmentation Booster}, 
-      author={Fenghe Tang and Wenxin Ma and Zhiyang He and Xiaodong Tao and Zihang Jiang and S. Kevin Zhou},
-      year={2025},
-      eprint={2506.18034},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2506.18034}, 
+@article{llm4seg,
+  title={Pre-Trained LLM is a Semantic-Aware and Generalizable Segmentation Booster},
+  author={Tang, Fenghe and Ma, Wenxin and He, Zhiyang and Tao, Xiaodong and Jiang, Zihang and Zhou, S Kevin},
+  journal={arXiv preprint arXiv:2506.18034},
+  year={2025}
 }
 ```
 
